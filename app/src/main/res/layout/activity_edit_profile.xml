@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="4dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_gravity="center"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/ic_person_outline_black_24dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+        <TextView
+            style="@style/Casual"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="Change Your Profile Picture"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            style="@style/RegularMono"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:drawablePadding="16dp"
+            android:hint="Name"
+            android:textColorHint="#1d1d1d"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+            android:id="@+id/editText_name"
+            />
+        <EditText
+            style="@style/RegularMono"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:drawablePadding="16dp"
+            android:hint="About "
+            android:textColorHint="#1d1d1d"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+            android:id="@+id/about"
+            />
+        <EditText
+            style="@style/RegularMono"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:drawablePadding="16dp"
+            android:hint="Mobile"
+            android:textColorHint="#1d1d1d"
+            android:maxLines="1"
+            android:inputType="phone"
+            android:id="@+id/editText_mobile"
+            />
+
+
+        <Button
+            style="@style/BoldCondensed"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/roundedbutton"
+            android:id="@+id/bttnupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Update"
+            android:clickable="true"
+            android:padding="16dp"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

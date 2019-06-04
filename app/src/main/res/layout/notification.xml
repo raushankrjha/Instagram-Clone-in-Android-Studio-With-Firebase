@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/rjha2"
+        app:civ_border_color="#FF000000"/>
+
+    <LinearLayout
+        android:layout_margin="4dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        style="@style/BoldCondensed"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/black"
+        android:text="devi,amardepp,sumit and "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <TextView
+
+            android:textSize="18dp"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/black"
+            android:text=" 454 liked your post  2W"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:src="@drawable/rjha"
+        android:layout_width="80dp"
+        android:layout_height="70dp" />
+</LinearLayout>

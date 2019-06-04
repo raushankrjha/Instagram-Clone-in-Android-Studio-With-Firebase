@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    app:cardBackgroundColor="@android:color/white"
+    android:layout_margin="2dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/rjha"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <TextView
+               style="@style/RegularCondensed"
+                android:id="@+id/name"
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"
+                android:text="Raushan Jha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/postimg"
+            android:scaleType="fitXY"
+            android:src="@drawable/postimg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_favorite_border_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_comment_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_share_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="200dp"
+                android:src="@drawable/ic_bookmark_border_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:src="@drawable/rjha"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:src="@drawable/rjha"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+                <TextView
+                    style="@style/RegularMono"
+                    android:text=" Liked By Raushan Jha and 12 others"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@android:color/black"
+                  style="@style/BoldItalic"
+                android:text="Raushan "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:text="Description"
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:visibility="gone"
+            android:layout_margin="5dp"
+            android:textSize="25dp"
+            android:text="Title"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:src="@drawable/rjha"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                    style="@style/RegularMonoSerif"
+                android:textColor="@android:color/black"
+               android:layout_gravity="center"
+                android:hint=" Add a comment..."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
