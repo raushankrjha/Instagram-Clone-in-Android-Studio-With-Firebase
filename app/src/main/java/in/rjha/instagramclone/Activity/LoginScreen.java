@@ -37,13 +37,13 @@ public class LoginScreen extends AppCompatActivity {
         firebaseAuth= FirebaseAuth.getInstance();
 
         //find id of view
-        edtemail=(EditText)findViewById(R.id.editText_emailAddress);
-        edtpassword=(EditText)findViewById(R.id.editText_password);
-        bsignup=(Button)findViewById(R.id.bsignup);
-        blogin=(Button)findViewById(R.id.blogin);
+        edtemail = findViewById(R.id.editText_emailAddress);
+        edtpassword = findViewById(R.id.editText_password);
+        bsignup = findViewById(R.id.bsignup);
+        blogin = findViewById(R.id.blogin);
 
 
-        //check user already login or not
+        //check if user is already logged in or not
         if(firebaseAuth.getCurrentUser()!=null)
         {
             finish();
