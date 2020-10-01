@@ -7,6 +7,8 @@
 ### Development
 
 Want to contribute? Great!
+YES i want to contribute adding dark theme
+
 
 Designed And Developed By 
 ----
